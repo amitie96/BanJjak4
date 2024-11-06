@@ -22,30 +22,30 @@
     </div>
 	
 	<h4>회원 가입</h4>
-	<form:form modelAttribute="user" method="post">
+	<form:form method="post">
 		<div>
 		<label for="userId">아이디</label>
-		<input type="text" id="userId">
+		<input type="text" name="userId">
 		</div>
 		<div>
 		<label for="username">이름</label>
-		<input type="text" id="username">
+		<input type="text" name="username">
 		</div>
 		<div>
 		<label for="nickname">닉네임</label>
-		<input type="text" id="nickname">
+		<input type="text" name="nickname">
 		</div>
 		<div>
 		<label for="password">비밀번호</label>
-		<input type="text" id="password">
+		<input type="text" name="password">
 		</div>
 		<div>
 		<label for="email">이메일</label>
-		<input type="text" id="email">
+		<input type="text" name="email">
 		</div>
 		
-		<p><input type="submit" value="가입하기"/>
-		<input type="reset" value="다시쓰기"/>
+		<div><button>회원가입</button></div>
+		<div><a href="/main">취소</a></div>
 	</form:form>	       
 
 <jsp:include page="../layouts/footer.jsp"/>

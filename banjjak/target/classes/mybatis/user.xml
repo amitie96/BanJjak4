@@ -6,7 +6,7 @@
 	<insert id="join">
 		
 		INSERT INTO user 
-		VALUES(#{user.user_id}, #{user.username}, #{user.nickname}, #{user.password}, #{user.email})
+		VALUES(#{userId}, #{username}, #{nickname}, #{password}, #{email})
 		
 	</insert>
 	

@@ -3,7 +3,7 @@
 
 <configuration>
 	<typeAliases>
-		<typeAlias type="com.mysite.banjjak.model.User" alias="User"/>
+		<typeAlias type="com.mysite.banjjak.model.User" alias="user"/>
 	</typeAliases>
 	
 	<mappers>

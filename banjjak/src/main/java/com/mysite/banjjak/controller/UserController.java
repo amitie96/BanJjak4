@@ -7,6 +7,7 @@ import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RequestMapping;
 
+import com.mysite.banjjak.model.User;
 import com.mysite.banjjak.service.UserService;
 
 @Controller
@@ -17,14 +18,15 @@ public class UserController {
 	UserService userService;
 	
 	@GetMapping("/join")
-	public String member() {
+	public String join() {
 		return "user/join";
 	}
 	
 	@PostMapping("/join")
-	public String memberForm() {
-		userService.join();
-		return "redirect:/user/login";
+	public String joinForm(User user) {
+		userService.join(user);
+		System.out.println("DB 등록");
+		return "redirect:user/login";
 	}
 
 	@GetMapping("/login")

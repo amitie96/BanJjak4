@@ -4,6 +4,7 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
 import com.mysite.banjjak.dao.UserDao;
+import com.mysite.banjjak.model.User;
 
 @Service
 public class UserServiceImpl implements UserService {
@@ -12,7 +13,12 @@ public class UserServiceImpl implements UserService {
 	UserDao userDao;
 
 	@Override
-	public void join() {
-		userDao.join();	
+	public void join(User user) {
+		userDao.join(user);
+		
 	}
+
+	
+
+	
 }
