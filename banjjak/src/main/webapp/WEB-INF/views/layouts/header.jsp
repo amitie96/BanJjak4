@@ -8,11 +8,11 @@
     <div class="link">
         <ul>
         <li>
-            <a href="#">로그인</a>
+            <a href="/login">로그인</a>
             <!-- <a href="#">로그아웃</a> -->
         </li>
         <li>
-            <a href="#">회원가입</a>
+            <a href="/member">회원가입</a>
         </li>
         <li>
             <a href="#">마이페이지</a>

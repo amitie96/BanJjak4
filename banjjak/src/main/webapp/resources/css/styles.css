@@ -35,3 +35,26 @@ footer {
    font-weight: 700;
    background-color: #FFEFD5;
 }
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: auto;
+    width: auto;
+    gap: 40px;
+}
+
+div p {
+    font-weight:bold;
+}
+
+input {
+    width:200px;
+    height:30px;
+    margin-top:10px;
+}
+
+.ctbox {
+    padding: 13% 0 20.5% 0;
+}
