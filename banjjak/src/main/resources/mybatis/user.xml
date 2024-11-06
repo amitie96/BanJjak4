@@ -2,9 +2,12 @@
 <!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "https://mybatis.org/dtd/mybatis-3-mapper.dtd">
 
 <mapper namespace="user">
-
-	<select id="list">
-		SELECT * FROM user
-	</select>
+	
+	<insert id="join">
+		
+		INSERT INTO user 
+		VALUES(#{user.user_id}, #{user.username}, #{user.nickname}, #{user.password}, #{user.email})
+		
+	</insert>
 	
 </mapper>

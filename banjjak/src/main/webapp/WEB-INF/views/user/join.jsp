@@ -22,14 +22,14 @@
     </div>
 	
 	<h4>회원 가입</h4>
-	<form:form modelAttribute="member" method="post">
+	<form:form modelAttribute="user" method="post">
 		<div>
 		<label for="userId">아이디</label>
 		<input type="text" id="userId">
 		</div>
 		<div>
-		<label for="userName">이름</label>
-		<input type="text" id="userName">
+		<label for="username">이름</label>
+		<input type="text" id="username">
 		</div>
 		<div>
 		<label for="nickname">닉네임</label>
@@ -43,8 +43,7 @@
 		<label for="email">이메일</label>
 		<input type="text" id="email">
 		</div>
-		<div>
-	
+		
 		<p><input type="submit" value="가입하기"/>
 		<input type="reset" value="다시쓰기"/>
 	</form:form>	       
