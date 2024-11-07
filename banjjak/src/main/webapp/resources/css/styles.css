@@ -1,4 +1,6 @@
 @charset "utf-8";
+
+/* header */
 header {
        display: flex;
        justify-content: space-between; /* 양쪽 끝으로 정렬 */
@@ -28,6 +30,7 @@ li {
     margin-right: 10px;
 }
 
+/* footer */
 footer {
    border-top: 2px dashed #f7a486; /* 빨간 점선 */
    text-align: center;

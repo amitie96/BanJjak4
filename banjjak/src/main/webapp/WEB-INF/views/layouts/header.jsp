@@ -12,7 +12,7 @@
             <!-- <a href="#">로그아웃</a> -->
         </li>
         <li>
-            <a href="/member">회원가입</a>
+            <a href="/user/join">회원가입</a>
         </li>
         <li>
             <a href="#">마이페이지</a>
